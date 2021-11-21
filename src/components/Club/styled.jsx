@@ -3,7 +3,7 @@ import background from "./../../images/background.png";
 
 export const Background = styled.div`
   width: 100%;
-  height: 759.641px;
+  height: 780px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -13,7 +13,6 @@ export const Background = styled.div`
 export const Title = styled.p`
   padding-right: 30px;
   padding-left: 30px;
-  max-width: 960px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;

@@ -18,7 +18,7 @@ import { ReactComponent as DownArrow } from "./../../images/downarrow.svg";
 import { ReactComponent as UpArrow } from "./../../images/uparrow.svg";
 import beneficiosImage from "../../images/beneficios_peluditos.png";
 
-const MoreInfo = () => {
+const Club = () => {
   return (
     <Background>
       <Title>¿Un seguro que te abre las puertas a un CLUB?</Title>
@@ -49,4 +49,4 @@ const MoreInfo = () => {
   );
 };
 
-export default MoreInfo;
+export default Club;
