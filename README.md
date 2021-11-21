@@ -1,6 +1,6 @@
 # About repository
 
-Clone of the website [Seguro Peludo](https://www.seguropeludo.com.co/), using the React library, for a technical test for frontend development.
+Clone of the website [Seguro Peludo](https://www.seguropeludo.com.co/), using the React library and Styled Components, for a technical test for frontend development.
 
 ## How to install and use
 
