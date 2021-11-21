@@ -36,7 +36,7 @@ export const DivImage = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  aling-items: flex-start;
+  align-items: flex-start;
   text-align: center;
   width: 600px;
   height: 221px;
@@ -79,19 +79,4 @@ export const Button = styled.button`
   color: #123446;
   flex-wrap: wrap;
   margin-top: 24px;
-`;
-
-export const DivArrow = styled.div`
-  display: flex;
-  flex: 1 0 auto;
-  flex-direction: row;
-  justify-content: center;
-  filter: drop-shadow(0px 3px 6px #00000029);
-  float: left;
-  width: 12%;
-  aling-items: flex-start;
-  text-align: center;
-  margin: auto auto;
-  padding-bottom: 1.5rem;
-  margin-top: 2rem;
 `;

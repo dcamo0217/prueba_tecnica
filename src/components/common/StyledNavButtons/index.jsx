@@ -39,3 +39,18 @@ export const BackButton = styled.button`
     padding-top: 13px;
   }
 `;
+
+export const DivArrow = styled.div`
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: row;
+  justify-content: center;
+  filter: drop-shadow(0px 3px 6px #00000029);
+  float: left;
+  width: 12%;
+  align-items: flex-start;
+  text-align: center;
+  margin: auto auto;
+  padding-bottom: 1.5rem;
+  margin-top: 1rem;
+`;

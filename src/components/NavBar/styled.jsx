@@ -20,7 +20,7 @@ export const Logo = styled.button`
   height: 24px;
   display: flex;
   justify-content: flex-start;
-  aling-items: center;
+  align-items: center;
   margin-left: 16px;
   margin-top: 12px;
   text-align: center;

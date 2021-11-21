@@ -55,11 +55,10 @@ export const Text = styled.p`
 export const PricesDiv = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-botoon: 20px;
+  margin-bottom: 20px;
   z-index: 2;
   max-width: 752px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 4rem;
 `;
 
 export const Column = styled.div`
@@ -210,19 +209,4 @@ export const Image = styled.div`
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
-`;
-
-export const DivArrow = styled.div`
-  display: flex;
-  flex: 1 0 auto;
-  flex-direction: row;
-  justify-content: center;
-  filter: drop-shadow(0px 3px 6px #00000029);
-  float: left;
-  width: 12%;
-  aling-items: flex-start;
-  text-align: center;
-  margin: auto auto;
-  padding-bottom: 1.5rem;
-  margin-top: 4rem;
 `;

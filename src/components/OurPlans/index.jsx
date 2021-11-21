@@ -1,5 +1,9 @@
 import React from "react";
-import { NextButton, BackButton } from "../common/StyledNavButtons/index";
+import {
+  NextButton,
+  BackButton,
+  DivArrow,
+} from "../common/StyledNavButtons/index";
 import {
   Background,
   Container,
@@ -19,7 +23,6 @@ import {
   TableCell,
   HeaderRow,
   Button,
-  DivArrow,
 } from "./styled";
 import { ReactComponent as Check } from "../../images/checkicon.svg";
 import { ReactComponent as DownArrow } from "./../../images/downarrow.svg";
