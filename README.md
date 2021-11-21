@@ -1,6 +1,6 @@
 # About repository
 
-Clone of the website Seguro Peludo, using the React library, for a technical test.
+Clone of the website [https://www.seguropeludo.com.co/], using the React library, for a technical test.
 
 ## How to install and use
 
