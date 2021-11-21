@@ -19,7 +19,6 @@ import {
   TableCell,
   HeaderRow,
   Button,
-  Image,
   DivArrow,
 } from "./styled";
 import { ReactComponent as Check } from "../../images/checkicon.svg";
