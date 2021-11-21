@@ -6,8 +6,6 @@ Clone of the website Seguro Peludo, using the React library, for a technical tes
 
 Clone the repository, run `yarn install`, once all dependencies have been installed run `yarn start`.
 
-### `yarn start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
