@@ -11,13 +11,16 @@ import {
   Text,
   PricesDiv,
   PriceGrid,
-  Column,
+  LeftColumn,
+  CenterColumn,
+  RightColumn,
   TitleGrid,
   TextGrid,
   DivTable,
   Table,
   Thread,
   HeaderCell,
+  HeaderSpecialCell,
   TableBody,
   TableRow,
   TableCell,
@@ -35,21 +38,21 @@ const OurPlans = () => {
         <Title>Nuestros Planes</Title>
         <Text>Planeados pensando en la tranquilidad de tu pedido</Text>
         <PricesDiv>
-          <Column>
+          <LeftColumn>
             <TitleGrid>Básico</TitleGrid>
             <PriceGrid>$20.000</PriceGrid>
             <TextGrid>Mensual</TextGrid>
-          </Column>
-          <Column>
+          </LeftColumn>
+          <CenterColumn>
             <TitleGrid>Estándar</TitleGrid>
             <PriceGrid>$28.000</PriceGrid>
             <TextGrid>Mensual</TextGrid>
-          </Column>
-          <Column>
+          </CenterColumn>
+          <RightColumn>
             <TitleGrid>Premium</TitleGrid>
             <PriceGrid>$36.000</PriceGrid>
             <TextGrid>Mensual</TextGrid>
-          </Column>
+          </RightColumn>
         </PricesDiv>
         <Title>Beneficios de Seguro Peludo</Title>
         <Text>
@@ -62,14 +65,14 @@ const OurPlans = () => {
               <HeaderRow>
                 <HeaderCell></HeaderCell>
                 <HeaderCell></HeaderCell>
-                <HeaderCell>Popular</HeaderCell>
+                <HeaderSpecialCell primary>Popular</HeaderSpecialCell>
                 <HeaderCell></HeaderCell>
               </HeaderRow>
               <HeaderRow>
                 <HeaderCell></HeaderCell>
-                <HeaderCell>Básico</HeaderCell>
-                <HeaderCell>Estándar</HeaderCell>
-                <HeaderCell>Premium</HeaderCell>
+                <HeaderSpecialCell>Básico</HeaderSpecialCell>
+                <HeaderSpecialCell>Estándar</HeaderSpecialCell>
+                <HeaderSpecialCell>Premium</HeaderSpecialCell>
               </HeaderRow>
             </Thread>
             <TableBody>

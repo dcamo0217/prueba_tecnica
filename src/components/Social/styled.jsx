@@ -68,15 +68,19 @@ export const Text = styled.p`
 
 export const IconDiv = styled.div`
   padding-bottom: 1rem;
-  display: flex;
+  display: block;
   justify-content: flex-start;
   outline: none;
   box-sizing: border-box;
+  max-width: 560px;
+  max-height: 121px;
 `;
 
-export const Icon = styled.button`
+export const Icon = styled.a`
   border: none;
   background: transparent;
+  cursor: pointer;
+  padding-right: 0.6rem;
   svg {
     width: 27px;
     height: 24px;

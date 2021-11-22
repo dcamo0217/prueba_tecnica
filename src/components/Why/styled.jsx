@@ -38,9 +38,9 @@ export const DivImage = styled.div`
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   height: 221px;
-  min-width: 100px;
   margin-right: auto;
   margin-left: auto;
 `;
@@ -49,7 +49,8 @@ export const Images = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 180px;
+  width: 100%;
+  max-width: 180px;
   height: 220px;
   min-heght: max-content;
   border: 2px solid #34bacf;

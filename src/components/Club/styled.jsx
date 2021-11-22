@@ -3,11 +3,14 @@ import background from "./../../images/background.png";
 
 export const Background = styled.div`
   width: 100%;
-  height: 780px;
+  min-height: 580px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   text-align: center;
+  @media (max-width: 758px) {
+    height: 520px;
+  }
 `;
 
 export const Title = styled.p`
@@ -47,6 +50,9 @@ export const Page = styled.div`
   outline: none;
   box-sizing: border-box;
   display: block;
+  @media (max-width: 758px) {
+    background: white;
+  }
 `;
 
 export const Container = styled.div`
@@ -79,6 +85,9 @@ export const FontImage = styled.img`
   border-style: none;
   box-sizing: border-box;
   text-align: center;
+  @media (max-width: 758px) {
+    display: none;
+  }
 `;
 
 export const ImageText = styled.div`
@@ -101,6 +110,13 @@ export const ImageText = styled.div`
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  @media (max-width: 758px) {
+    font-size: 15px;
+    padding:right:5px;
+    flex: 0 0 20%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 `;
 
 export const Text = styled.p`
@@ -117,4 +133,10 @@ export const Text = styled.p`
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   box-sizing: border-box;
+  @media (max-width: 758px) {
+    font-size: 15px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 `;

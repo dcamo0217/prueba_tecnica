@@ -15,8 +15,7 @@ export const Container = styled.div`
   background-position-y: top;
   overflow-x: hidden;
   width: 100%;
-  height: auto;
-  max-height: 640px;
+  min-height: 666px;
 `;
 
 export const HomeContainer = styled.div`
@@ -47,6 +46,7 @@ export const Button = styled.button`
   overflow: visible;
   cursor: pointer;
   color: #123446;
+  margin-bottom: 1rem;
 `;
 
 export const TextArea = styled.input`

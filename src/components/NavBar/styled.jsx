@@ -15,7 +15,6 @@ export const Bar = styled.div`
 export const Logo = styled.button`
   width: 110px;
   border: none;
-  background: transparent;
   cursor: pointer;
   height: 24px;
   display: flex;
@@ -24,6 +23,14 @@ export const Logo = styled.button`
   margin-left: 16px;
   margin-top: 12px;
   text-align: center;
+  background-color: white;
+  @media (max-width: 1025px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
 `;
 
 export const Nav = styled.div`
@@ -33,6 +40,9 @@ export const Nav = styled.div`
   display: inline-block;
   margin-right: 1rem;
   background: transparent;
+  @media (max-width: 1025px) {
+    display: none;
+  }
 `;
 
 export const Button = styled.button`

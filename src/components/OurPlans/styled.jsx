@@ -58,30 +58,50 @@ export const PricesDiv = styled.div`
   margin-bottom: 20px;
   z-index: 2;
   max-width: 752px;
-  padding-left: 4rem;
+  margin-right: auto;
+  margin-left: auto;
 `;
 
-export const Column = styled.div`
+export const LeftColumn = styled.div`
   border-bottom-left-radius: 8px;
-  background-color: #f8f9fa;
-  z-index: 2;
+  border-top-left-radius: 8px;
+  background-color: #efefef;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
   overflow: hidden;
-  display: block;
+  max-width: 220px;
+`;
+
+export const CenterColumn = styled.div`
+  background-color: #efefef;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  overflow: hidden;
+  max-width: 220px;
+`;
+
+export const RightColumn = styled.div`
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #efefef;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  overflow: hidden;
+  max-width: 220px;
 `;
 
 export const TitleGrid = styled.p`
   font-size: 24px;
   background-color: #094f71;
   z-index: 2;
-  color: #fff;
+  color: white;
   text-align: center;
   line-height: 30px;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   margin-top: 0px;
   margin-bottom: 0px;
+  width: 220px;
 `;
 
 export const PriceGrid = styled.p`
@@ -92,6 +112,7 @@ export const PriceGrid = styled.p`
   padding-top: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
+  width: 220px;
 `;
 
 export const TextGrid = styled.p`
@@ -104,6 +125,7 @@ export const TextGrid = styled.p`
   margin-top: 0px;
   margin-bottom: 0px;
   outline: none;
+  width: 220px;
 `;
 
 export const DivTable = styled.div`
@@ -116,8 +138,10 @@ export const DivTable = styled.div`
   flex: 0 0 100%;
   max-width: 100%;
   position: relative;
-  width: 100%;
   outline: none;
+  @media (max-width: 768px) {
+    max-width: 400px;
+  }
 `;
 
 export const Table = styled.table`
@@ -157,6 +181,20 @@ export const HeaderCell = styled.th`
   display: table-cell;
   vertical-align: inherit;
   box-sizing: border-box;
+`;
+
+export const HeaderSpecialCell = styled.th`
+  text-align: center;
+  min-width: 80px;
+  width: auto;
+  height: 42px;
+  font-weight: 400;
+  outline: none;
+  display: table-cell;
+  vertical-align: inherit;
+  box-sizing: border-box;
+  background-color: ${(props) => (props.primary ? "#efb718" : "#123346")};
+  color: ${(props) => (props.primary ? "black" : "white")};
 `;
 
 export const TableBody = styled.tbody`

@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
-export const NextButton = styled.button`
+export const NextButton = styled.a`
   background-color: white;
   border: none;
   cursor: pointer;
   border-radius: 50%;
-  width: 48px;
+  min-width: 48px;
+  max-width: 48px;
   height: 48px;
   display: flex;
   justify-content: center;
   position: relative;
-  margin: 0.5rem auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
 
   svg {
     width: 1.5rem;
@@ -20,18 +24,18 @@ export const NextButton = styled.button`
   }
 `;
 
-export const BackButton = styled.button`
+export const BackButton = styled.a`
   background-color: white;
   border: none;
   cursor: pointer;
   border-radius: 50%;
-  width: 48px;
+  min-width: 48px;
+  max-width: 48px;
   height: 48px;
   display: flex;
   justify-content: center;
-  position: relative;
-  margin: 0.5rem auto;
-
+  margin-bottom: 30px;
+  margin-right: 15px;
   svg {
     width: 1.5rem;
     height: 1.5rem;
@@ -42,15 +46,13 @@ export const BackButton = styled.button`
 
 export const DivArrow = styled.div`
   display: flex;
-  flex: 1 0 auto;
   flex-direction: row;
-  justify-content: center;
   filter: drop-shadow(0px 3px 6px #00000029);
-  float: left;
   width: 12%;
   align-items: flex-start;
   text-align: center;
-  margin: auto auto;
   padding-bottom: 1.5rem;
   margin-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
 `;

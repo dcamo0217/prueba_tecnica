@@ -21,7 +21,7 @@ import cachorro from "./../../images/cachorro.png";
 
 const Why = () => {
   return (
-    <Background>
+    <Background id="why">
       <DivText>
         <Text primary>¿Por qué Seguro Peludo?</Text>
         <Text>
